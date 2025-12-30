@@ -1,0 +1,50 @@
+# Docker ignore file for Expense Tracker Backend
+
+# Build outputs
+target/
+!target/ExpenseTrackerApplication.jar
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+RENDER_DEPLOYMENT.md
+*.md
+
+# SQL scripts (if you don't need them in container)
+*.sql
+
+# Test files
+src/test/
